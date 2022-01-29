@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    background: url(./pang-yuhao-_kd5cxwZOK4-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+}
+.main{
+    width: 900px;
+    margin: -100px auto 0px auto; */
+    display: block;
+    padding: 10px;
+}
+h2{
+    text-align:center;
+    padding: 20px;
+    font-family: sans-serif;
+    margin-right: 160px;
+}
+.register{
+    background-color: rgba(0,0,0,0.5);
+    padding-left: 180px;
+    width: 100%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: white;
+    display: inline-block;
+}
+form#register{
+    margin:50px;
+    
+}
+label{
+    font-family: sans-serif;
+    margin: 10px;
+    justify-content: center;
+    font-size: 18px; 
+}
+/* input#name,#email,#address,#department,#mono{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding:7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.8; */
+}
+input#dob,#gender{
+    opacity: 0.8;
+}
+input#submit,input#reset{
+    width: 100px;
+    color: white;
+    padding: 10px 10px; 
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(27, 26, 26,0.8);
+    border: 1px solid rgba(255,255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0,0, 0, 0.3);
+    margin-bottom: 20px;
+}
+#submit:hover,#reset:hover{
+    background-color: rgb(146, 146, 146);
+     color: white;
+    cursor: pointer;  
+}
+label,h2{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+#img{
+    width: 100px;
+    margin-left: 1250px;
+}
+#address{
+     margin-left: 195px;
+     height: 25px;
+     width: 200px; 
+     padding: 3px;
+     font-family: sans-serif;
+} 
+span{
+    margin-left:40px;
+    padding: 60px 40px;
+    /* padding-left: 60px; */
+}
+form{
+    align-items: center;
+    display: block;
+    
+}
+#name{
+    margin-left: 200px;
+    width: 200px;
+    height: 25px;
+    /* padding: 3px; */
+}
+#dob{
+    margin-left: 210px;
+    width: 200px;
+    height: 25px;
+}
+/* #gender{
+    margin-left: 190px;
+} */
+#gender1{
+    margin-left: 190px;
+    margin-right: 10px;
+
+}
+#gender2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#email{
+    margin-left: 200px;
+    height: 25px;
+    width: 200px;
+}
+#department{
+    margin-left: 158px;
+    height: 25px;
+    width: 200px;
+}
+#mono{
+    margin-left: 137px;
+    height: 25px;
+    width: 200px;
+}
